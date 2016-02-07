@@ -1,29 +1,21 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-    <title>Mathew Ostrander</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css">
-  </head>
+---
+layout: default
+---
 
-  <body>
-    <h1>Future Home of Mathew Ostranders Information!</h1>
-    <h3>Stay tuned for updates and current information</h3>
-    <div>
-        <img src="resources/Profile.jpg" class="lefty">
-        <p class="righty text">
-            In the meantime your best bet to learn about me is to examine my <a href="https://github.com/MAOstrander">Github Repositories</a>.
-        </p>
-    </div>
-    <div class="heavy text">
-        <h4>Also present on:</h4>
-        <ul>
-            <li><a href="https://www.linkedin.com/in/maostrander">LinkedIn</a></li>
-            <li><a href="https://twitter.com/OstranderMat">Twitter</a></li>
-            <li><a href="https://www.facebook.com/ostrandacon">Facebook</a></li>
-            <li><a href="https://plus.google.com/u/0/+MathewOstrander">Google+</a></li>
-        </ul>
-    </div>
-  </body>
-</html>
+<div class="home">
+
+  <h1 class="page-heading">Posts</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
