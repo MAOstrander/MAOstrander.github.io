@@ -1,21 +1,40 @@
 ---
 layout: default
+permalink: /
 ---
 
+{% include flavor.html %}
+
+
 <div class="home">
+  {% include  about.html %}
 
-  <h1 class="page-heading">Posts</h1>
+  {% include  info.html %}
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="main-post">
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <h1 class="page-heading">Portfolio</h1>
+
+    <div class="post-list">
+      {% for post in site.posts %}
+        <div class="folio-piece">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <h2>{{ post.title }}</h2>
+            <img src="{{ post.img }}">
+          </a>
+
+          <h4>Made for: {{post.platform}}</h4>
+
+          <p>
+            About: {{ post.about }}
+          </p>
+
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
+
+  {% include technologies.html %}
 
 </div>

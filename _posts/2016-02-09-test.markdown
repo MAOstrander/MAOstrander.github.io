@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Getting Started"
+title:  "Layout Testing"
 date:   2016-02-07 14:07:29 -0600
 categories: construction
 img: https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg
 platform: Web
-about: This is the first test post for the Jekyll layout
+about: This is the second test post for the Jekyll layout
 ---
+
 Future home of Mathew Ostrander's Portfolio pieces!
 Stay tuned for updates and current information
 
