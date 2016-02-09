@@ -183,12 +183,41 @@
     border-radius: 50%;
 }
 .flavor {
-    background: url("http://cliparts.co/cliparts/pi5/oBo/pi5oBoByT.svg");
+    background: url("../images/Tall-Banner.gif");
     background-size: cover;
 }
 .main-name{
     display: inline-block;
     font-size: 2.5rem;
+}
+
+
+.google-doc {
+  width: 100%;
+  text-align: center;
+  iframe {
+    height: 1200px;
+    width: 800px;
+    border: none;
+  }
+
+}
+
+.info-main {
+  position: relative;
+}
+.info-col {
+    float: left;
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-palm) {
+    .info-col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
 }
 
 .folio-piece {
@@ -197,14 +226,6 @@
     width:         calc(50% - (#{$spacing-unit} / 2));
     min-height: 600px;
 }
-
-// @include media-query($on-laptop) {
-//     .folio-piece {
-//         width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-//         width:         calc(50% - (#{$spacing-unit} / 2));
-//     }
-// }
-
 @include media-query($on-palm) {
     .folio-piece {
         float: none;
