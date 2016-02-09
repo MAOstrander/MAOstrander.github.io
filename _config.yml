@@ -7,7 +7,6 @@
 
 # Site settings
 title: Mathew Ostrander
-email: mathew.ostrander@gmail.com
 description: >
   Mathew Ostrander: Software Developer by day, Gamer by night, and Adventurer on the weekends. Up and coming full stack programmer with a Node.js specialty.
 baseurl: "" # the subpath of your site, e.g. /blog
