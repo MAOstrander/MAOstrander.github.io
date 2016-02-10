@@ -132,13 +132,13 @@
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
+    width:         calc(35% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -173,6 +173,7 @@
     display: inline-block;
     font-size: 2.5rem;
     color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   @include media-query($on-palm) {
     display: block;
     text-align: center;
@@ -191,8 +192,9 @@
 
 }
 
-.info-main {
-  position: relative;
+#info-main {
+    margin-top: $spacing-unit / 2;
+    position: relative;
 }
 .info-col {
     float: left;
@@ -209,11 +211,6 @@
 }
 
 
-
-.tech-main {
-  clear: both;
-}
-
 /**
  * Page content
  */
@@ -222,7 +219,7 @@
 }
 
 .page-heading {
-    font-size: 20px;
+    font-size: 2em;
 }
 
 .post-list {

@@ -2,27 +2,28 @@
 	<div id="about-photo-div">
 		<img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZ8AAAAJGI4NjVmOTE5LWY1MDgtNDg1Yy04MDBmLWFjYjM1OGVlMzFjZA.jpg" class="profile-photo">
 	</div>
-	<div>
+	<div class="about-details">
 		<h3>Mathew Ostrander</h3>
     <ul class="social-media-list">
       <li>
         {% include icon-github.html username=site.github_username %}
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/maostrander">LinkedIn</a>
+        {% include icon-linkedin.html username="Maostrander" %}
       </li>
       <li>
         {% include icon-twitter.html username=site.twitter_username %}
       </li>
       <li>
-        <a href="https://www.facebook.com/ostrandacon">Facebook</a>
+        {% include icon-facebook.html username="Ostrandacon" %}
       </li>
       <li>
-        <a href="https://plus.google.com/u/0/+MathewOstrander">Google+</a>
+        {% include icon-gplus.html username="+MathewOstrander" %}
       </li>
     </ul>
 
-    <p>{{ site.description }}</p>
+    <p class="blurb">{{ site.description }}</p>
 	</div>
 
 </section>
+

@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var theWindow = $(window);
 
 	function bindScroll() {
-    $("#about-photo-div").toggle($(this).scrollTop() > 400);
+    $("#about-photo-div").toggle($(this).scrollTop() > 350);
 	}
 
 	function checkWidth() {
