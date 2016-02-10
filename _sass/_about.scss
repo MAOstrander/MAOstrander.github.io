@@ -6,6 +6,7 @@
     position: fixed;
     float: right;
     right: 0;
+    top: 60px;
     z-index: 1;
     @include media-query($on-laptop) {
         float: none;
@@ -28,4 +29,13 @@
     margin-right: auto;
     margin-left: auto;
   }
+}
+
+    #about-photo-div {
+      display: none;
+    }
+@include media-query($on-laptop) {
+    #about-photo-div {
+      display: none;
+    }
 }
