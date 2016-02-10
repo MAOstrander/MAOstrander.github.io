@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 	function checkWidth() {
     var windowsize = theWindow.width();
-        if (windowsize > 550) {
+        if (windowsize > 985) {
         	theWindow.bind('scroll', bindScroll);
         } else {
         	theWindow.unbind('scroll');

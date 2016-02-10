@@ -17,15 +17,16 @@
         padding-left: $spacing-unit / 2;
         .about-details {
             position: relative;
+            min-height: 125px;
         }
         .blurb {
             max-width: -webkit-calc(50% - (#{$spacing-unit} / 2));
             max-width:         calc(50% - (#{$spacing-unit} / 2));
+            margin-top: $spacing-unit;
         }
         .social-media-list {
             position: absolute;
             right: 0;
-            top: $spacing-unit;
             max-width: -webkit-calc(50% - (#{$spacing-unit} / 2));
             max-width:         calc(50% - (#{$spacing-unit} / 2));
         }
@@ -49,7 +50,7 @@
       display: none;
     }
 @include media-query($on-laptop) {
-    #about-photo-div {
+    #about-photo-div, #about-title {
       display: none;
     }
 }
