@@ -1,0 +1,13 @@
+.folio-piece {
+    float: left;
+    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+    width:         calc(50% - (#{$spacing-unit} / 2));
+    min-height: 600px;
+}
+@include media-query($on-palm) {
+    .folio-piece {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}

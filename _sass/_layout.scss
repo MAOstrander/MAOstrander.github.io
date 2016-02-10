@@ -169,26 +169,19 @@
 
 
 
-
-.about {
-    background-color: $background-color;
-    border: 1px solid white;
-    padding: 5px;
-    max-width: 300px;
-    // position: fixed;
-    // right: 0;
-    // top: 56px;
-}
-.profile-photo {
-    border-radius: 50%;
-}
 .flavor {
     background: url("../images/Tall-Banner.gif");
     background-size: cover;
 }
+
 .main-name{
     display: inline-block;
     font-size: 2.5rem;
+    color: white;
+  @include media-query($on-palm) {
+    display: block;
+    text-align: center;
+  }
 }
 
 
@@ -220,19 +213,7 @@
     }
 }
 
-.folio-piece {
-    float: left;
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-    min-height: 600px;
-}
-@include media-query($on-palm) {
-    .folio-piece {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
+
 
 .tech-main {
   clear: both;

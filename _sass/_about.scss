@@ -1,0 +1,31 @@
+.about {
+    background-color: $background-color;
+    border: 1px solid white;
+    padding: 5px;
+    max-width: 300px;
+    position: fixed;
+    float: right;
+    right: 0;
+    z-index: 1;
+    @include media-query($on-laptop) {
+        float: none;
+        position: static;
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+
+    @include media-query($on-palm) {
+        max-width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        max-width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
+.profile-photo {
+    border-radius: 50%;
+  @include media-query($on-palm) {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
