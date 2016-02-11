@@ -19,12 +19,15 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #6FCB70;
-$brand-color:      #9792E3;
+$background-color: #4bb344;
+// $background-color: #227f15;
+$brand-color:      #4e2eb8;
 
-$grey-color:       #5B6C5D;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
+$grey-color:       #4e2eb8;
+$grey-color-light: #FFF;
+$grey-color-dark:  #4e2eb8;
+// $grey-color-light: lighten($grey-color, 40%);
+// $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    985px;

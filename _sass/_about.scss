@@ -1,12 +1,13 @@
 .about {
     background-color: $background-color;
-    border: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
     padding: 5px;
-    max-width: 300px;
+    max-width: 290px;
     position: fixed;
     float: right;
     right: 0;
-    top: 60px;
+    top: 62px;
     z-index: 1;
     @include media-query($on-laptop) {
         float: none;
@@ -39,6 +40,7 @@
 }
 .profile-photo {
     border-radius: 50%;
+    border: 1px solid $brand-color;
   @include media-query($on-palm) {
     display: block;
     margin-right: auto;
