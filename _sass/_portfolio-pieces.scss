@@ -1,4 +1,7 @@
 .folio-piece {
+		background-color: $light-background-color;
+		border: 1px solid $brand-color;
+		border-radius: 15px;
     float: left;
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));

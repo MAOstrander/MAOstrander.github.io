@@ -19,8 +19,8 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #4bb344;
-// $background-color: #227f15;
+$light-background-color: #4bb344;
+$background-color: #227f15;
 $brand-color:      #4e2eb8;
 
 $grey-color:       #4e2eb8;
@@ -60,5 +60,6 @@ $on-laptop:        985px;
   "syntax-highlighting",
   "portfolio-pieces",
   "about",
-  "tech"
+  "tech",
+  "info"
 ;

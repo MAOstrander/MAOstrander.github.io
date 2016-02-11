@@ -12,6 +12,7 @@
     @include media-query($on-laptop) {
         float: none;
         position: static;
+        border: 1px solid white;
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;

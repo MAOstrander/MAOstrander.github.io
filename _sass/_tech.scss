@@ -7,7 +7,21 @@
     padding-left: $spacing-unit / 2;
     width: -webkit-calc(31% - (#{$spacing-unit} / 2));
     width:         calc(31% - (#{$spacing-unit} / 2));
+    background-color: $light-background-color;
+    min-height: 250px;
+    border-top: 1px solid $brand-color;
+    border-right: 1px solid $brand-color;
+    border-left: 1px solid $brand-color;
+    border-radius: 15px 15px 0 0;
 }
+
+// .info-col-1 {
+//     @include media-query($on-palm) {
+//         border-right: 1px solid $brand-color;
+//         border-bottom: none;
+//         border-radius: 15px 15px 0 0;
+//     }
+// }
 
 @include media-query($on-phone) {
   h3 {

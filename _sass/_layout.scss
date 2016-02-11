@@ -5,6 +5,7 @@
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
+    background-color: $light-background-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -153,6 +154,9 @@
     background: url("../images/Tall-Banner.gif");
     background-size: cover;
     border-radius: 146px 0 0 146px;
+    @include media-query($on-palm) {
+        border-radius: 15px;
+    }
 }
 
 .main-name{
@@ -175,27 +179,7 @@
     width: 800px;
     border: none;
   }
-
 }
-
-#info-main {
-    margin-top: $spacing-unit / 2;
-    position: relative;
-}
-.info-col {
-    float: left;
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
-}
-
-@include media-query($on-palm) {
-    .info-col {
-        float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-}
-
 
 /**
  * Page content
