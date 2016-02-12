@@ -4,9 +4,12 @@
 }
 
 .info-col {
+    @include media-query($large) {
+    min-height: 210px;
+    }
+        min-height: 135px;
     float: left;
     padding: 5px;
-    min-height: 210px;
     background-color: $light-background-color;
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
     width:         calc(50% - (#{$spacing-unit} / 2));
