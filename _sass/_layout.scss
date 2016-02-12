@@ -157,6 +157,23 @@
         border-radius: 15px;
     }
 }
+.page-content {
+    background: url("../images/green.gif");
+}
+
+// .spacer {
+//     margin-top: $spacing-unit;
+// }
+
+.headings {
+    display: inline-block;
+    background-color: #4bb344;
+    padding-left: 50px;
+    padding-right: 20px;
+    border-radius: 0 30px 30px 0;
+    font-size: 2rem;
+    margin-top: $spacing-unit;
+}
 
 #main-name{
     display: inline-block;

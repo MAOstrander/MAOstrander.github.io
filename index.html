@@ -7,13 +7,14 @@ permalink: /
 
 {% include  about.html %}
 
+{% include  info.html %}
 <div class="home">
-
-  {% include  info.html %}
 
   <div class="main-post">
 
-    <h1 class="page-heading">Portfolio</h1>
+  <div class="spacer">
+    <h1 class="headings">Portfolio</h1>
+  </div>
 
     <div class="post-list" id="portfolio">
       {% for post in site.posts %}
