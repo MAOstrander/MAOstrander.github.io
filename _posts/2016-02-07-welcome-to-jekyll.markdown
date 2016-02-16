@@ -1,20 +1,58 @@
 ---
 layout: post
-title:  "Getting Started"
-date:   2016-02-07 14:07:29 -0600
-categories: construction
-img: https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg
-platform: Web
-about: This is the first test post for the Jekyll layout
+title:  "cal in Node"
+date:   2016-02-15 20:00:00 -0600
+categories: node TDD CLI
+img: images/Running-year.png
+platform: Command-Line
+about: This is an exercise recreating the command line app 'cal' written as a Node.js module using TDD with Mocha, Chai, Travis CI, and Coveralls.
 ---
-Future home of Mathew Ostrander's Portfolio pieces!
-Stay tuned for updates and current information
+Try it out at the [Github Repository](https://github.com/MAOstrander/node-cal).
 
-In the meantime your best bet to learn about me is to examine my [Github Repositories](https://github.com/MAOstrander).
+# node-cal
 
-Also present on:
+[![Coverage Status](https://coveralls.io/repos/github/MAOstrander/node-cal/badge.svg?branch=master)](https://coveralls.io/github/MAOstrander/node-cal?branch=master)
 
-  [LinkedIn](https://www.linkedin.com/in/maostrander),
-  [Twitter](https://twitter.com/OstranderMat),
-  [Facebook](https://www.facebook.com/ostrandacon), &
-  [Google+](https://plus.google.com/u/0/+MathewOstrander)
+##About
+This is an exercise recreating the command line app 'cal' written as a Node.js module.
+
+This was also a lesson in Test Driven Development. Mocha and Chai were used in conjuction with Travis CI for distributed testing & Coveralls for test coverage.
+
+##Requirements
+Since it's a command line app, you will need access to your terminal.
+You will also need Git and NPM
+
+##Installing
+1. In the directory you want to install, Git Clone this repo
+2. Change Directory into the cloned repo
+3. In that main directory run `npm install`
+4. To be able to run the file directly type `chmod +x cal.js`
+
+##Running
+To run the app, simply type ./cal.js in the main directory of the cloned repo
+To run it in other locations you will need to type the full path to the file.
+
+##Usage
+Running `./cal.js` with no arguments displays the current month's calendar in the console
+
+![Basic Output](/images/Example-output.png)
+
+
+Running `./cal.js <year>` with a four digit year between 1753 and 9999 (inclusive) will display a full calendar year
+
+![Year Output](/images/Running-year.png)
+
+
+If the year chosen is outside the range or illegible
+
+![Invalid Year Input](/images/Bad-year.png)
+
+
+Running `./cal.js <month> <year>` with a valid year and month will display that particular month and year.  1753 and 9999 (inclusive) will display a full calendar year.
+
+![Month Output](/images/Running-month-year.png)
+
+
+A valid month must either be a number between 1-12 inclusive, the full month name, or a three letter abreviation of a month name.
+
+![Invalid Month Input](/images/Bad-month.png)
