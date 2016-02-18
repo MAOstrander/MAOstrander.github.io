@@ -171,6 +171,9 @@
     margin-top: $spacing-unit;
 }
 
+.thumb-image {
+    max-width: 80%;
+}
 #main-name{
     display: inline-block;
     font-size: 2.5rem;
@@ -182,6 +185,14 @@
   }
 }
 
+.resume-heading {
+    display: inline-block;
+    background-color: #4bb344;
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 1px solid $brand-color;
+    margin-top: $spacing-unit;
+}
 
 .google-doc {
   width: 100%;
@@ -219,6 +230,7 @@
 }
 
 .post-link {
+    text-align: center;
     display: block;
     font-size: 24px;
 }

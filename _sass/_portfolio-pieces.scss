@@ -1,4 +1,10 @@
 .folio-piece {
+    h4 {
+        text-align: center;
+    }
+    p {
+        padding: 10px;
+    }
 		background-color: $light-background-color;
 		border: 1px solid $brand-color;
 		border-radius: 15px;

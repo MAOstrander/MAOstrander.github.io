@@ -1,13 +1,15 @@
 .about {
+    box-sizing: border-box;
     background-color: $background-color;
+    border-top: 1px solid white;
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     padding: 5px;
-    max-width: 290px;
+    max-width: 301px;
     position: fixed;
     float: right;
     right: 0;
-    top: 62px;
+    top: 61px;
     z-index: 1;
     @include media-query($on-laptop) {
         float: none;

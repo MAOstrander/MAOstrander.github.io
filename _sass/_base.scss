@@ -182,6 +182,10 @@ pre {
     }
 }
 
+.resume-wrapper {
+    text-align: center;
+    @extend %clearfix;
+}
 
 
 /**
