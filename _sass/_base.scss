@@ -164,6 +164,7 @@ pre {
     // margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+    box-sizing: border-box;
     border-right: 1px solid white;
     @extend %clearfix;
 
