@@ -2,7 +2,7 @@
 layout: post
 title:  "cal in Node"
 date:   2016-02-15 20:00:00 -0600
-categories: node TDD CLI
+categories: CLI
 img: images/Running-year.png
 platform: Command-Line
 about: This is an exercise recreating the command line app 'cal' written as a Node.js module using TDD with Mocha, Chai, Travis CI, and Coveralls.
