@@ -8,10 +8,9 @@ platform: Command-Line
 about: This is an exercise recreating the command line app 'cal' written as a Node.js module using TDD with Mocha, Chai, Travis CI, and Coveralls.
 ---
 Try it out at the [Github Repository](https://github.com/MAOstrander/node-cal).
+[![Coverage Status](https://coveralls.io/repos/github/MAOstrander/node-cal/badge.svg?branch=master)](https://coveralls.io/github/MAOstrander/node-cal?branch=master)
 
 # node-cal
-
-[![Coverage Status](https://coveralls.io/repos/github/MAOstrander/node-cal/badge.svg?branch=master)](https://coveralls.io/github/MAOstrander/node-cal?branch=master)
 
 ##About
 This is an exercise recreating the command line app 'cal' written as a Node.js module.
