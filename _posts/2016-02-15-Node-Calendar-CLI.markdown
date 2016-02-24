@@ -3,7 +3,7 @@ layout: post
 title:  "cal in Node"
 date:   2016-02-15 20:00:00 -0600
 categories: CLI
-img: images/Running-year.png
+img: images/cal/Running-month-year.png
 platform: Command-Line
 about: This is an exercise recreating the command line app 'cal' written as a Node.js module using TDD with Mocha, Chai, Travis CI, and Coveralls.
 ---
@@ -34,24 +34,24 @@ To run it in other locations you will need to type the full path to the file.
 ## Usage
 Running `./cal.js` with no arguments displays the current month's calendar in the console
 
-![Basic Output](/images/Example-output.png)
+![Basic Output](/images/cal/Example-output.png)
 
 
 Running `./cal.js <year>` with a four digit year between 1753 and 9999 (inclusive) will display a full calendar year
 
-![Year Output](/images/Running-year.png)
+![Year Output](/images/cal/Running-year.png)
 
 
 If the year chosen is outside the range or illegible
 
-![Invalid Year Input](/images/Bad-year.png)
+![Invalid Year Input](/images/cal/Bad-year.png)
 
 
 Running `./cal.js <month> <year>` with a valid year and month will display that particular month and year.  1753 and 9999 (inclusive) will display a full calendar year.
 
-![Month Output](/images/Running-month-year.png)
+![Month Output](/images/cal/Running-month-year.png)
 
 
 A valid month must either be a number between 1-12 inclusive, the full month name, or a three letter abreviation of a month name.
 
-![Invalid Month Input](/images/Bad-month.png)
+![Invalid Month Input](/images/cal/Bad-month.png)
