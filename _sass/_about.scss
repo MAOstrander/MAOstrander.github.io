@@ -5,12 +5,12 @@
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     padding: 5px;
+    padding-top: 30px;
     max-width: 301px;
     position: fixed;
     float: right;
     right: 0;
-    top: 61px;
-    z-index: 1;
+    top: 0px;
     @include media-query($on-laptop) {
         float: none;
         position: static;
