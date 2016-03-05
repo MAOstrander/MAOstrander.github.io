@@ -35,11 +35,6 @@
             max-width:         calc(50% - (#{$spacing-unit} / 2));
         }
     }
-
-    @include media-query($on-palm) {
-        max-width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        max-width:         calc(100% - (#{$spacing-unit} / 2));
-    }
 }
 .profile-photo {
     border-radius: 50%;

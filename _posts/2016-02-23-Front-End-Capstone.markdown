@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "StreetPass Relay Radar"
+title:  "Relay Radar"
 date:   2016-02-23 20:00:00 -0600
 categories: Angular
 img: images/relay-radar/Logged-in.png
