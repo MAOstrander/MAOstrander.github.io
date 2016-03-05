@@ -151,6 +151,7 @@
 }
 
 .flavor {
+    margin-left: $spacing-unit;
     background: url("../images/Tall-Banner.gif");
     background-size: cover;
     border-radius: 146px 0 0 146px;
@@ -214,7 +215,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit 0 0 0;
 }
 
 .page-heading {
@@ -222,7 +223,7 @@
 }
 
 .post-list {
-    margin-left: 0;
+    margin-left: $spacing-unit;
     list-style: none;
 
     > li {

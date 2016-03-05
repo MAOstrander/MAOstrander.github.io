@@ -159,8 +159,6 @@ pre {
  * Wrapper
  */
 .wrapper {
-    // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    // max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: 300px;
     // margin-left: auto;
     padding-right: $spacing-unit;
@@ -181,6 +179,9 @@ pre {
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
+}
+#no-lpad {
+    padding-left: 0px;
 }
 
 .resume-wrapper {
