@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Arkham Adventure"
-date:   2016-02-07 14:07:29 -0600
+date:   2016-03-07 14:07:29 -0600
 categories: Ionic
-img: /images/arkham/Player-limits.png
+img: images/arkham/Menu.png
 platform: Ionic
-about: This was a personal project in mobile development working with Ionic and Cordova to create an app to help with the game Arkham Horror.
+about: This was a personal project in mobile development working with Ionic and Cordova to create a phone app to help with the board game Arkham Horror.
 ---
 Try it out at the [Github Repository](https://github.com/MAOstrander/Arkham-Adventure-App).
 

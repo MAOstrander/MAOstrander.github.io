@@ -3,7 +3,7 @@ layout: post
 title:  "Weather Ionic"
 date:   2016-01-12 20:00:00 -0600
 categories: Ionic
-img: /images/weather-ionic/Geolocation-supported.png
+img: /images/weather-ionic/title-top.png
 platform: Ionic
 about: This was an exercise in mobile development working with Ionic and Cordova to create a weather app using an API.
 ---

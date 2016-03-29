@@ -154,7 +154,7 @@
     margin-left: $spacing-unit;
     background: url("../images/Tall-Banner.gif");
     background-size: cover;
-    border-radius: 146px 0 0 146px;
+    border-radius: 150px 0 0 150px;
     @include media-query($on-palm) {
         border-radius: 15px;
     }

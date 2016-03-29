@@ -1,13 +1,15 @@
 ---
 layout: post
 title:  "Relay Radar"
-date:   2016-02-23 20:00:00 -0600
+date:   2016-03-23 20:00:00 -0600
 categories: Angular
 img: images/relay-radar/Logged-in.png
 platform: Web using AngularJS
 about: This was my front end capstone at NSS. I used AngularJS, Google Maps, Firebase, and AngularFire to create it. Later I refactored it to be statically served using Node/Express.
 ---
-Try it out at the [Github Repository](https://github.com/MAOstrander/relay-radar).
+You can see this app in action on the web [here](relay-radar.firebaseapp.com).
+
+You can inspect the code and clone a copy at the [Github Repository](https://github.com/MAOstrander/relay-radar).
 
 
 # StreetPass Relay Radar
