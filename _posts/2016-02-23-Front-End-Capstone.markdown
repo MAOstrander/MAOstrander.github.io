@@ -7,7 +7,7 @@ img: images/relay-radar/Logged-in.png
 platform: Web using AngularJS
 about: This was my front end capstone at NSS. I used AngularJS, Google Maps, Firebase, and AngularFire to create it. Later I refactored it to be statically served using Node/Express.
 ---
-You can see this app in action on the web [here](relay-radar.firebaseapp.com).
+You can see this app in action on the web [here](https://relay-radar.firebaseapp.com/).
 
 You can inspect the code and clone a copy at the [Github Repository](https://github.com/MAOstrander/relay-radar).
 
