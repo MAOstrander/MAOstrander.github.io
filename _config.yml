@@ -8,7 +8,7 @@
 # Site settings
 title: Mathew Ostrander
 description: >
-  Mathew Ostrander: Software Developer by day, Gamer by night, and Adventurer on the weekends. Up and coming full stack programmer with a Node.js specialty.
+  Mathew Ostrander: Software Developer by day, Gamer by night, and Adventurer on the weekends. Mobile and Front-End Developer with Node.js training. Currently increasing Back-End capabilites by learning C#
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mathewostrander.com" # the base hostname & protocol for your site
 twitter_username: OstranderMat
