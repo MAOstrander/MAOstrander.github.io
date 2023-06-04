@@ -99,10 +99,44 @@ button {
 
   #resume h2 {
     border-bottom: #227f15 solid 2px;
+    margin-top: 2rem;
+  }
+
+  #resume h2.resume-title {
+    border-bottom: none;
+    margin-top: 1.5rem;
+  }
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+
+.experience-company {
+    font-weight: bold;
+    color: white;
+  }
+
+.experience-position, .experience-duration {
+    font-weight: bold;
+  }
+
+  ul.experience-highlights {
+    text-align: left;
+  }
+
+  ul.experience-highlights li {
+    margin-bottom: .25rem;
   }
 
   ul.skills-tech {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul.skills-tech li {
+    display: inline-block;
+    margin: .25rem;
   }
