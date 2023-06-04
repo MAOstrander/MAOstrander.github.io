@@ -1,0 +1,108 @@
+body {
+    background-color: black;
+    color: #227f15;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: flex;
+}
+
+
+.card {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: #227f15 solid 1px;
+    border-radius: 25px;
+}
+
+a {
+    display: inline-flex;
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #DDD;
+}
+
+a:hover {
+    color: #CCC;
+    text-decoration: underline;
+}
+.username {
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.icon>svg {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.icon>svg path {
+    fill: #33A739;
+}
+
+.profile-photo-container {
+    padding: 1rem;
+}
+.profile-photo {
+    border-radius: 50%;
+    border: 1px solid #33A739;
+    max-width: 100%;
+}
+
+#controls {
+    max-width: 500px;
+    padding: 0.75rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: #227f15 solid 1px;
+    border-radius: 25px;
+}
+
+button {
+    background-color: #227f15; /* Green */
+    border: none;
+    color: #227f15;
+    padding: .5rem .75rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button {
+    background-color: black; 
+    color: #227f15; 
+    border: 2px solid #227f15;
+    border-radius: 10px;
+  }
+  
+  .button:hover {
+    background-color: #227f15;
+    color: white;
+  }
+
+  #resume h2 {
+    border-bottom: #227f15 solid 2px;
+  }
+
+  ul.skills-tech {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
